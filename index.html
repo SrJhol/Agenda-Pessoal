@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro de compromisso</title>
+</head>
+
+<body>
+
+  <!-- Formulário principal para cadastro de compromissos -->
+    <form id="form-compromisso">
+
+          <!-- Campo obrigatório para o título do compromisso -->
+        <input type="text" id="titulo" placeholder="Título" required />
+
+          <!-- Campo obrigatório para data do compromisso -->
+        <input type="date" id="data" />
+
+          <!-- Campo obrigatório para a hora do compromisso-->
+        <input type="time" id="hora" />
+
+        <!-- Campo para digitar o local do compromisso -->
+        <input type="text" id="local" placeholder="Local" />
+
+        <!-- Campo para digitar as observações adicionais  -->
+        <textarea id="obs" placeholder="Observações"></textarea>
+
+          <!-- Botão para enviar o formulário e salvar -->
+        <button type="submit">Salvar Compromisso</button>
+    </form>
+
+
+ <!-- Contador de compromissos cadastrados -->
+<h2>Total de compromissos: <span id="contador">0</span></h2>
+
+ <!-- Div para exbição das listas cadastradas -->
+<div id="lista-compromissos"></div>
+</div>
+
+</body>
+
+</html>
