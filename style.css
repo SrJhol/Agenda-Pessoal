@@ -1,9 +1,10 @@
 /* Define estilos básicos para o corpo da página */
 body {
-  font-family: Arial, sans-serif;
+   font-family: Arial, sans-serif;
   background-color: #979ea3;
   margin: 0;
   padding: 20px;
+  
 }
 
 /* Container principal centralizado com fundo branco e bordas arredondadas */
@@ -52,4 +53,15 @@ button {
 /* Botões de editar/excluir com pequeno espaçamento entre eles */
 .compromisso button {
   margin-left: 5px;
+}
+
+.form-container {
+ background-color: #ffffffcc;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto 30px auto; 
+  box-sizing: border-box;
 }
