@@ -1,0 +1,55 @@
+/* Define estilos básicos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #979ea3;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container principal centralizado com fundo branco e bordas arredondadas */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Estilos padrão para campos de formulário e botão */
+form input,
+form textarea,
+form button {
+  width: 100%;             
+  margin-bottom: 10px;      
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* Estilo base para botões */
+button {
+  background-color: #4caf50;  
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo visual para cada compromisso listado */
+.compromisso {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+/* Cabeçalho do compromisso com título e botões lado a lado */
+.compromisso-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Botões de editar/excluir com pequeno espaçamento entre eles */
+.compromisso button {
+  margin-left: 5px;
+}
