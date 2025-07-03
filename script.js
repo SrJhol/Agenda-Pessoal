@@ -74,7 +74,7 @@ form.addEventListener("submit", function (e) {
 
   // Validação: título é obrigatório
   if (!titulo) {
-    alert("O título é obrigatório.");
+    alert("Preencha todos os campos!!");
     return;
   }
    // Cria o objeto do novo compromisso (ou editado)
